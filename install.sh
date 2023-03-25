@@ -15,9 +15,9 @@ git clone https://github.com/xditya/ChannelActionsBot
 cd ChannelActionsBot
 
 echo "Making a .env file.."
-read -p "Enter your telegram bot token: " token
-read -p "Enter telegram user IDs to be owners. (separate by space): " owners
-read -p "Enter your MongoDB.com database URL: " dburl
+read -p "6038111030:AAE9Pj3WsBoK_0EXk6lrZxMMmZhxrDS_MiE" token
+read -p "1524009793 5472888653" owners
+read -p "mongodb+srv://Tyler:Umahpeters@cluster0.rtuol8u.mongodb.net/?retryWrites=true&w=majority" dburl
 
 # https://stackoverflow.com/a/13633682/15249128
 cat > .env << EOF
@@ -41,6 +41,6 @@ pm2 start main.ts --interpreter=$path --interpreter-args="run --allow-env --allo
 
 echo "Bot has started. View logs using 'pm2 logs ChannelActions'"
 echo ""
-echo "Join @BotzHub <https://BotzHub.t.me> for more bots."
-echo "Know more: https://channelactions.xditya.me"
-echo "Thanks for using Channel Actions Bot!"
+echo "Join @BotzHub <https://TylerBotz.t.me> for more bots."
+echo "Know more: https://t.me/TylerMoviesEmpire"
+echo "Thanks for using TME Auto Accept Request Bot!"
