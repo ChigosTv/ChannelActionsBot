@@ -1,8 +1,8 @@
 /*
 ChannelActions Bot
-Telegram: @ChannelActionsBot
+Telegram: @TMEAutoAcceptRequestBot
 
-(c) Aditya, https://xditya.me
+(c) TYLER, https://t.me/KhallMheTyler
 */
 
 import config from "$env";
